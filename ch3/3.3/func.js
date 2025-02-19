@@ -1,4 +1,6 @@
-const { odd, even } = require('./var');
+const { odd, even } = require('./var.js');
+
+console.log(odd, even)
 
 function checkOddOrEven(num) {
   if (num % 2) { // 홀수면
