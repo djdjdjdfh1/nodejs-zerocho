@@ -5,4 +5,5 @@ setInterval(() => {
   } catch (err) {
     console.error(err);
   }
+  console.log('끝')
 }, 1000);
