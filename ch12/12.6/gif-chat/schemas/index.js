@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const { MONGO_ID, MONGO_PASSWORD, NODE_ENV } = process.env;
 const MONGO_URL = `mongodb://${MONGO_ID}:${MONGO_PASSWORD}@localhost:27017/admin`;
 
-console.log('몽고DB URL', MONGO_URL);
+console.log('몽고DB', MONGO_URL);
 
 const connect = () => {
   if (NODE_ENV !== 'production') {
