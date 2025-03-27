@@ -7,7 +7,7 @@ console.log('mongodb test',MONGO_URL);
 
 const connect = () => {
   if (NODE_ENV !== 'production') {
-    mongoose.set('debug', true);
+    mongoose.set('debugging', true);
   }
   mongoose.connect(MONGO_URL, {
     dbName: 'gifchat',
